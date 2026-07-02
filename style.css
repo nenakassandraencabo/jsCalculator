@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(247, 1, 234);
+    font-family:Arial, Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.holder{
+    background-color: #ffcbeb;
+    padding: 30px;
+    border-radius:10px;
+    box-shadow: 0 4px 8px rgb(0,0,0,0.5);
+    text-align:center;
+}
+label{
+    display:block;
+    margin-bottom: 5px;
+    color:rgb(155, 4, 130)
+}
+.inputbox{
+    margin-bottom: 15px;
+}
+input[type=text]{
+    width:calc(100%-22px);
+    border: 1px solid #cccccc;
+    border-radius:5px;
+    padding:10px;
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius:5px;
+    background-color: rgb(255, 0, 157);
+}
+.btn{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:20px;
+}
+button:hover{
+    background-color:rgb(219, 141, 235);
+    color:rgb(60, 132, 199);
+
+}
